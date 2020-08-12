@@ -41,12 +41,9 @@ A collection of tools for the life-cycle of complex models.
 [![LinkedIn][linkedin-shield]][linkedin-url]
 <!--
 *** Thanks for checking out this README Template. If you have a suggestion that would
-*** make this better, please fork the repo and create a pull request or simply open
+*** make this better, please fork the repo and create a pull request or open
 *** an issue with the tag "enhancement".
-*** Thanks again! Now go create something AMAZING! :D
 -->
-
-
 
 
 <!-- TABLE OF CONTENTS -->
@@ -55,6 +52,10 @@ A collection of tools for the life-cycle of complex models.
 * [Introduction](#introduction)
 * [Model Development](#model-development)
 * [Data Management](#data-management)
+  * [Input Management](#input-management)
+  * [Dynamic Table Management](#dynamic-table-management)
+  * [Assumption Set Management](#assumption-set-management)
+  * [Data Validation Controls](#data-validation-controls)
 * [Model Execution](#model-execution)
 * [Results Analysis](#results-analysis)
 * [Model Goverance](#model-goverance)
@@ -62,9 +63,10 @@ A collection of tools for the life-cycle of complex models.
 * [Prerequisites](#prerequisites)
 * [Installation](#installation)
 
+
 <!-- INTRODUCTION -->
 ## Introduction
-A highly flexible data model allows that provides the following:
+The jmpytools project includes a set of packages found useful in creating applications and/or model frameworks. They implement functionality that is commonly used in model applications and the life-cycle of models. The goal is to provide a collection of tools that support a complete, end-to-end modeling solution.
 
 <!-- MODEL DEVELOPMENT -->
 ### Model Development
@@ -85,16 +87,19 @@ Define your table structures during model development and load data using a vari
 #### Assumption Set Management
 Create groupings of assumptions that stack on one another to more easily control values at run time, while providing the flexibility necessary for complex scenarios.  Using a drag and drop editor, it's easier than ever to manage your assumption sets!
 
-#### Field Level Validation
-Real-time input validation which gives you instant feedback on potential issues to more easily avoid run-time errors.
+#### Data Validation Controls
+Real-time validation of inputs to provide instant feedback on potential issues to help avoid run-time errors.
 
 <!-- MODEL EXECUTION -->
 ## Model Execution
-Generally, most people want models that:
+The goal of most people want models that:
 
-*  Produce accurate results.
-* Use precise methods for all features.
-* Run quickly.
+* Produces accurate results.
+* Easy to use.
+* Runs quickly.
+
+# Projection Run Templates
+Projection run templates are available to help manage entire sets of inputs for models and assist with the set up of projection runs by allowing users to adjust relevant inputs for individual runs and common use cases. 
 
 ### Distributive Processing
 Distributive processing provides mechanisms for spreading workloads across multiple sets of hardware for parallel processing of calculations. This comes in several forms of increasing complexity. 
